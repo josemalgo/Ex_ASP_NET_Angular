@@ -1,0 +1,9 @@
+D:\JOSE\Documents\IT_ACADEMY\Ex_ASP_NET_Angular\EmployeesProj.Domain\bin\Debug\netcoreapp3.1\EmployeesProj.Domain.deps.json
+D:\JOSE\Documents\IT_ACADEMY\Ex_ASP_NET_Angular\EmployeesProj.Domain\bin\Debug\netcoreapp3.1\EmployeesProj.Domain.dll
+D:\JOSE\Documents\IT_ACADEMY\Ex_ASP_NET_Angular\EmployeesProj.Domain\bin\Debug\netcoreapp3.1\EmployeesProj.Domain.pdb
+D:\JOSE\Documents\IT_ACADEMY\Ex_ASP_NET_Angular\EmployeesProj.Domain\obj\Debug\netcoreapp3.1\EmployeesProj.Domain.csprojAssemblyReference.cache
+D:\JOSE\Documents\IT_ACADEMY\Ex_ASP_NET_Angular\EmployeesProj.Domain\obj\Debug\netcoreapp3.1\EmployeesProj.Domain.AssemblyInfoInputs.cache
+D:\JOSE\Documents\IT_ACADEMY\Ex_ASP_NET_Angular\EmployeesProj.Domain\obj\Debug\netcoreapp3.1\EmployeesProj.Domain.AssemblyInfo.cs
+D:\JOSE\Documents\IT_ACADEMY\Ex_ASP_NET_Angular\EmployeesProj.Domain\obj\Debug\netcoreapp3.1\EmployeesProj.Domain.csproj.CoreCompileInputs.cache
+D:\JOSE\Documents\IT_ACADEMY\Ex_ASP_NET_Angular\EmployeesProj.Domain\obj\Debug\netcoreapp3.1\EmployeesProj.Domain.dll
+D:\JOSE\Documents\IT_ACADEMY\Ex_ASP_NET_Angular\EmployeesProj.Domain\obj\Debug\netcoreapp3.1\EmployeesProj.Domain.pdb

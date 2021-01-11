@@ -1,0 +1,12 @@
+D:\JOSE\Documents\IT_ACADEMY\Ex_ASP_NET_Angular\Employees.DataAcces.EFCore\bin\Debug\netcoreapp3.1\EmployeesProj.DataAcces.EFCore.deps.json
+D:\JOSE\Documents\IT_ACADEMY\Ex_ASP_NET_Angular\Employees.DataAcces.EFCore\bin\Debug\netcoreapp3.1\EmployeesProj.DataAcces.EFCore.dll
+D:\JOSE\Documents\IT_ACADEMY\Ex_ASP_NET_Angular\Employees.DataAcces.EFCore\obj\Debug\netcoreapp3.1\EmployeesProj.DataAcces.EFCore.AssemblyInfoInputs.cache
+D:\JOSE\Documents\IT_ACADEMY\Ex_ASP_NET_Angular\Employees.DataAcces.EFCore\obj\Debug\netcoreapp3.1\EmployeesProj.DataAcces.EFCore.AssemblyInfo.cs
+D:\JOSE\Documents\IT_ACADEMY\Ex_ASP_NET_Angular\Employees.DataAcces.EFCore\obj\Debug\netcoreapp3.1\EmployeesProj.DataAcces.EFCore.csprojAssemblyReference.cache
+D:\JOSE\Documents\IT_ACADEMY\Ex_ASP_NET_Angular\Employees.DataAcces.EFCore\bin\Debug\netcoreapp3.1\EmployeesProj.DataAcces.EFCore.pdb
+D:\JOSE\Documents\IT_ACADEMY\Ex_ASP_NET_Angular\Employees.DataAcces.EFCore\bin\Debug\netcoreapp3.1\EmployeesProj.Domain.dll
+D:\JOSE\Documents\IT_ACADEMY\Ex_ASP_NET_Angular\Employees.DataAcces.EFCore\bin\Debug\netcoreapp3.1\EmployeesProj.Domain.pdb
+D:\JOSE\Documents\IT_ACADEMY\Ex_ASP_NET_Angular\Employees.DataAcces.EFCore\obj\Debug\netcoreapp3.1\EmployeesProj.DataAcces.EFCore.csproj.CoreCompileInputs.cache
+D:\JOSE\Documents\IT_ACADEMY\Ex_ASP_NET_Angular\Employees.DataAcces.EFCore\obj\Debug\netcoreapp3.1\EmployeesProj.DataAcces.EFCore.csproj.CopyComplete
+D:\JOSE\Documents\IT_ACADEMY\Ex_ASP_NET_Angular\Employees.DataAcces.EFCore\obj\Debug\netcoreapp3.1\EmployeesProj.DataAcces.EFCore.dll
+D:\JOSE\Documents\IT_ACADEMY\Ex_ASP_NET_Angular\Employees.DataAcces.EFCore\obj\Debug\netcoreapp3.1\EmployeesProj.DataAcces.EFCore.pdb

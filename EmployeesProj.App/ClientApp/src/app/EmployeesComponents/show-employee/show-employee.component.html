@@ -1,0 +1,63 @@
+<div id="main-container">
+  <div id="control-container">
+    <!--[ngClass]="{'disabled': isDisabled}"-->
+    <div id="show-container">
+      <div id="icons-container">
+        <div>
+          <button id="btn-refresh">
+            <img src="../../../assets/img/refresh-button.png" alt="Refresh" />
+          </button>
+        </div>
+
+        <div>
+          <button id="btn-add" routerLink="/add" routerLinkActive="active">
+            <img src="../../../assets/img/plus.png" alt="Add employee" />
+          </button>
+        </div>
+
+        <div>
+          <button id="btn-edit" [ngClass]="{'disabled': !idSelected}"
+                  routerLink="/edit/{{idSelected}}" routerLinkActive="active" >
+            <img src="../../../assets/img/pencil.png" alt="Edit employee" />
+          </button>
+        </div>
+        <div>
+          <button id="btn-delete" [ngClass]="{'disabled': !idSelected}"
+                  routerLink="/delete/{{idSelected}}" routerLinkActive="active">
+            <img src="../../../assets/img/delete.png" alt="Delete employee" />
+          </button>
+        </div>
+      </div>
+      <div id="search-container">
+        <div><img id="search-img" src="../../../assets/img/search.png" alt="Search employee" /></div>
+        <div><input type="text" id="search-name" [(ngModel)]="searchText" placeholder="Search by ..." /></div>
+      </div>
+    </div>
+    <table id="employee-table">
+      <thead>
+        <tr>
+          <th style="display: none">ID</th>
+          <th>NAME</th>
+          <th>SURNAME</th>
+          <th>POSITION</th>
+          <th>SALARY</th>
+        </tr>
+      </thead>
+      <tbody *ngIf="employees?.length != 0">
+        <tr *ngFor="let employee of employees | appFilter:searchText; let i = index" (click)="ClickedRow(i)"
+            [ngClass]="{'active': i == HighlightRow}">
+          <td style="display: none"> {{employee.id}} </td>
+          <td> {{employee.name}} </td>
+          <td> {{employee.surname}} </td>
+          <td> {{employee.position}} </td>
+          <td> {{employee.salary}} </td>
+        </tr>
+      </tbody>
+      <tbody *ngIf="employees?.length == 0">
+        <tr>
+          <td colspan="4" class="no-data-available">No data!</td>
+        </tr>
+      <tbody>
+    </table>
+  </div>
+</div>

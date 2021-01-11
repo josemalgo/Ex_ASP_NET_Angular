@@ -1,0 +1,49 @@
+<div id="container">
+  <h1>Editar empleado</h1>
+  <form #EmployeeForm="ngForm">
+    <label for="name" class="label">Nombre</label>
+    <input type="text" class="input" id="name"
+           required
+           [(ngModel)]="employee.name" name="name"
+           #name="ngModel">
+    <div [hidden]="name.valid || name.pristine"
+         class="alert alert-danger">
+      Name is required
+    </div>
+
+    <label for="surname" class="label">Apellido</label>
+    <input type="text" class="input" id="surname"
+           required
+           [(ngModel)]="employee.surname" name="surname"
+           #surname="ngModel">
+    <div [hidden]="surname.valid || surname.pristine"
+         class="alert alert-danger">
+      Surname is required
+    </div>
+
+    <label for="position" class="label">Posición</label>
+    <input type="text" class="input" id="position"
+           required
+           [(ngModel)]="employee.position" name="position"
+           #position="ngModel">
+    <div [hidden]="position.valid || position.pristine"
+         class="alert alert-danger">
+      Position is required
+    </div>
+
+    <label for="salary" class="label">Salario</label>
+    <input type="text" class="input" id="salary"
+           required
+           [(ngModel)]="employee.salary" name="salary"
+           #salary="ngModel" pattern="[0-9,\.]+">
+    <div [hidden]="salary.valid || salary.pristine"
+         class="alert alert-danger">
+      Salary is required
+    </div>
+  </form>
+  <div id="div-buttons">
+    <button id="btnSubmit" type="submit" (click)="editEmployee()" [disabled]="!EmployeeForm.form.valid">Editar empleado</button>
+    <button id="btnCancel" (click)="cancel()">Cancel</button>
+  </div>
+</div>
+
